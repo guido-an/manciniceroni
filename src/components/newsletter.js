@@ -39,36 +39,35 @@ const Newsletter = () => {
       <style jsx='true'>
         {`
       .newsletter{
-        background-color: #fafafa;
-        color: #222;
+        color: #fff;
         text-align: center;
         padding: 60px 4% 120px;
         position: relative;
-        top:80px;
         position: relative;
         
       }
       .newsletter h2 {
-          color: var(--main-color)
+          color: #fff
       }
       .newsletter p {
-        color: #222;
+        color: #fff;
         margin-bottom: 40px
       }
 
       .newsletter input {
           height: 20px;
           width: 300px;
-          padding: 10px
+          padding: 10px;
+          border: 0.5px solid #fff
       }
       button {
           display: block;
           margin: 10px auto 0;
-          height: 44px;
+          height: 42px;
           width: 325px;
           background-color: var(--main-color);
           color: #fff;
-          border: 0.5px solid var(--main-color)
+          border: 0.5px solid #fff
       }
    
     @media(min-width: 1200px){

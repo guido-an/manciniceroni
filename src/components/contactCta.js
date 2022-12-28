@@ -21,15 +21,15 @@ const contactCta = () => (
         top:60px
       }
       .contact-cta h2 {
-          color: #fff
+          color: #052b60
       }
       .contact-cta p {
-        color: #fff;
+        color: #222;
         margin-bottom: 40px
       }
       .btn-cta{
-          border: 1px solid #fff;
-          color: #fff !important;
+          background: #052b60;
+          color: #fff!important;
           font-weight: 400;
           padding: 10px 30px;
           border-radius: 35px;

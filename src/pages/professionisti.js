@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Newsletter from '../components/newsletter'
+import ContactCta from '../components/contactCta'
 import Img from 'gatsby-image'
 
 const myDivider = {
@@ -51,49 +52,16 @@ export default () => {
           <div className='lo-studio'>
             <h2>Professionisti</h2>
             <div style={myDivider} />
-            <span><strong>A supporto del Cliente con entusiasmo e dedizione.</strong></span>
-            <p>Lo Studio è costituito dagli Avv.ti Nicola Mancini ed Elisabetta Ceroni e si avvale di collaboratori e domiciliatari, per assistere il Cliente su tutto il territorio nazionale.
+            <span><strong>A supporto del  cliente con entusiasmo e dedizione.</strong></span>
+            <p>Il nostro studio è fondato sulle competenze e sull’esperienza degli avvocati Elisabetta Ceroni e Nicola Mancini, con la possibilità di attivare una rete di collaboratori esterni per raggiungere facilmente i clienti presenti in tutto il territorio nazionale.
             </p>
             <div className='professionisti-container'>
               <div className='professionista'>
                 <div
                   className='img-container' id='img-container-1'
                 >
-                  <Img fluid={data.image.childImageSharp.fluid} />
+                  <Img fluid={data.image2.childImageSharp.fluid} />
                 </div>
-                <div>
-                  <h3>Avv. Nicola Mancini</h3>
-                  <p><strong>Formazione:</strong></p>
-                  <ul>
-                    <li>Laurea in Giurisprudenza presso l’Università “Alma Mater Studiorum” di Bologna;
-                    </li>
-                    <li>Master di secondo livello in Diritto Privato Europeo presso l’Università “La Sapienza” di Roma;
-                    </li>
-                    <li>Abilitazione all’esercizio della professione forense ed iscrizione all’Albo degli Avvocati di Ancona;
-                    </li>
-                    <li>Master di specializzazione in contenzioso bancario e finanziario.</li>
-                  </ul>
-                  <p><strong>Esperienze:</strong>
-                  </p>
-                  <p>Ha collaborato con primari Studi Legali, banche e intermediari finanziari, prestando assistenza per la gestione ed il recupero di crediti di derivazione commerciale e bancaria. </p>
-                  <p>Ha fornito consulenza in qualità di loan manager e legale interno in favore di: </p>
-                  <ul>
-                    <li>Juliet S.p.A. (gruppo Cerved S.p.A.); </li>
-                    <li>FBS S.p.A. (gruppo Banca IFIS S.p.A.); </li>
-                    <li>La Scala Società Tra Avvocati Per Azioni; </li>
-                    <li>Bacciardi and Partners studio legale internazionale.  </li>
-                  </ul>
-                  <p><strong>Contatti</strong></p>
-                  <p>Tel: 349 0887444</p>
-                  <p>Email: <a href='mailto:nicola@manciniceronistudiolegale.it '>nicola@manciniceronistudiolegale.it </a></p>
-                  <p>Linkedin: <a href='https://www.linkedin.com/in/avvocatonicolamancini/' target='_blank'>Nicola Mancini</a></p>
-                </div>
-              </div>
-              <div
-                className='professionista'
-
-              >
-
                 <div>
                   <h3>Avv. Elisabetta Ceroni</h3>
                   <p><strong>Formazione:</strong></p>
@@ -107,8 +75,8 @@ export default () => {
                   </ul>
                   <p><strong>Esperienze:</strong>
                   </p>
-                  <p>Ha collaborato con primari Studi Legali e intermediari finanziari, prestando assistenza per la gestione ed il recupero di crediti di derivazione commerciale ed utilities. </p>
-                  <p>Ha fornito consulenza in qualità di legale esterno in favore di:  </p>
+                  <p>Ho collaborato con primari Studi Legali e intermediari finanziari, prestando assistenza per la gestione ed il recupero di crediti di derivazione commerciale ed utilities. </p>
+                  <p>Ho fornito consulenza in qualità di legale esterno in favore di:  </p>
                   <ul>
                     <li>Europa Factor S.p.A.;
                     </li>
@@ -125,19 +93,54 @@ export default () => {
                   </p>
                   <p><strong>Contatti</strong></p>
                   <p>Tel: 334 6775287</p>
-                  <p>Email: <a href='mailto: elisabetta@manciniceronistudiolegale.it   '> elisabetta@manciniceronistudiolegale.it   </a></p>
+                  <p>Email: <a href='mailto: elisabetta@ceronimancini.it'> elisabetta@ceronimancini.it</a></p>
                   <p>Linkedin: <a href='https://www.linkedin.com/in/elisabetta-ceroni/' target='_blank'>Elisabetta Ceroni</a></p>
                 </div>
+                
+              </div>
+              <div
+                className='professionista'
+              >
+              <div>
+                  <h3>Avv. Nicola Mancini</h3>
+                  <p><strong>Formazione:</strong></p>
+                  <ul>
+                    <li>Laurea in Giurisprudenza presso l’Università “Alma Mater Studiorum” di Bologna;
+                    </li>
+                    <li>Master di secondo livello in Diritto Privato Europeo presso l’Università “La Sapienza” di Roma;
+                    </li>
+                    <li>Abilitazione all’esercizio della professione forense ed iscrizione all’Albo degli Avvocati di Ancona;
+                    </li>
+                    <li>Master di specializzazione in contenzioso bancario e finanziario.</li>
+                  </ul>
+                  <p><strong>Esperienze:</strong>
+                  </p>
+                  <p>Ho collaborato con primari Studi Legali, banche e intermediari finanziari, prestando assistenza per la gestione ed il recupero di crediti di derivazione commerciale e bancaria. </p>
+                  <p>Ho fornito consulenza in qualità di loan manager e legale esterno in favore di: </p>
+                  <ul>
+                    <li>Cerved Credit Management S.p.A.;</li>
+                    <li>Juliet S.p.A.;</li>
+                    <li>Banca IFIS S.p.A.;</li>
+                    <li>FBS S.p.A.;</li>
+                    <li>La Scala Società Tra Avvocati Per Azioni; </li>
+                    <li>Bacciardi and Partners studio legale internazionale.</li>
+                  </ul>
+                  <p><strong>Contatti</strong></p>
+                  <p>Tel: 349 0887444</p>
+                  <p>Email: <a href='mailto:nicola@ceronimancini.it'>nicola@ceronimancini.it </a></p>
+                  <p>Linkedin: <a href='https://www.linkedin.com/in/avvocatonicolamancini/' target='_blank'>Nicola Mancini</a></p>
+                </div>
+             
                 <div
                   className='img-container' id='img-container-2'
                 >
-                  <Img fluid={data.image2.childImageSharp.fluid} />
+                  <Img fluid={data.image.childImageSharp.fluid} />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <Newsletter />
+        <ContactCta />
       </Layout>
       <style jsx='true'>{`
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import logoDesktop from '../images/logo-sinistra.png'
+import logoDesktop from '../images/02_LOGO-CERONI&MANCINI.png'
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -94,7 +94,8 @@ export default () => {
             <img
               src={logoDesktop} style={{
                 position: 'relative',
-                bottom: '15px'
+                bottom: '15px',
+                height:"83px"
               }}
             />
           </Link>

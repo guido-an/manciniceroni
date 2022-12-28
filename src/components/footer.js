@@ -2,17 +2,19 @@ import React from 'react'
 import Subfooter from '../components/subfooter'
 import whiteLogo from '../images/logo-bianco.png'
 import { Link } from 'gatsby'
+import Newsletter from './newsletter'
 
 const Footer = () => {
   return (
     <div className='footer'>
+    <Newsletter/>
       {/* <img src={whiteLogo} id='logo-footer' /> */}
       <div className='footer-info-main-container'>
         <div className='footer-info-container'>
           <h4 className='title-section'>Contatti</h4>
           <p><a href='tel:+39  349 0887444'>+39  349 0887444</a></p>
           <p><a href='tel:+39  334 6775287'>+39  334 6775287</a></p>
-          <p><a href='mailto:info@manciniceronistudiolegale.it'>info@manciniceronistudiolegale.it</a></p>
+          <p><a href='mailto:info@ceronimancini.it'>info@ceronimancini.it</a></p>
 
         </div>
         <div className='footer-info-container'>
@@ -27,7 +29,6 @@ const Footer = () => {
           </p>
           <p><Link to='/note-legali'>Note Legali</Link>
           </p>
-
         </div>
       </div>
       <div className='contact'>
@@ -38,7 +39,7 @@ const Footer = () => {
       <style jsx='true'>{`
          .footer {
              display:block;
-             margin: 60px 0px 0px;
+             margin: 40px 0px 0px;
              background-color: var(--main-color);
              padding: 40px 10px 20px;  
              color: #fff;

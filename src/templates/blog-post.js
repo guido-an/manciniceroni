@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import Newsletter from '../components/newsletter'
+import ContactCta from '../components/contactCta'
 
 export default function BlogPost ({ data }) {
   const post = data.allWpPost.nodes[0]
@@ -31,7 +32,7 @@ export default function BlogPost ({ data }) {
         }
         @media(min-width:968px){
           .img-blog-post {
-            margin: 0 12%;
+            margin: 0 20%;
             box-shadow: var(--shadow);
             max-width: 900px
             
@@ -47,7 +48,7 @@ export default function BlogPost ({ data }) {
         }
         `}
       </style>
-      <Newsletter />
+      <ContactCta />
     </Layout>
   )
 }

@@ -36,8 +36,8 @@ export default () => {
           <div className='lo-studio'>
             <h2>Aree di Attività</h2>
             <div style={myDivider} />
-            <span><strong>Un solo settore, per garantire servizi di qualità.</strong>
-              <p>Lo Studio Legale ManciniCeroni si occupa in via esclusiva e specialistica del settore del recupero crediti, distinto in due principali aree di attività:
+            <span><strong>Un solo settore per garantire un servizio altamente professionale.</strong>
+              <p>Il nostro studio è focalizzato nella gestione del recupero crediti di derivazione commerciale e bancaria.
               </p>
               <ul id='crediti-commerciali'>
                 <li>Gestione e recupero crediti commerciali</li>
@@ -53,12 +53,12 @@ export default () => {
             />
             <h3>GESTIONE E RECUPERO CREDITI COMMERCIALI
             </h3>
-            <p>ManciniCeroni fornisce assistenza in favore di piccole e medie imprese, artigiani e professionisti, per la gestione ed il recupero di crediti commerciali.
+            <p>Forniamo assistenza in favore di piccole e medie imprese, artigiani e professionisti, per la gestione ed il recupero di crediti commerciali.
             </p>
-            <p>I Professionisti dello Studio hanno acquisito nel corso degli anni un elevato grado di competenza e specializzazione collaborando con primari Studi legali e Società di recupero crediti, all’interno dei dipartimenti di contenzioso giudiziale e credit collection. </p>
-            <p>Lo Studio è quindi in grado di fornire autonoma assistenza nella gestione e nel recupero dei crediti commerciali, in fase stragiudiziale, giudiziale ed esecutiva, nonché nelle procedure concorsuali (fallimenti; concordati).</p>
-            <p>Lo Studio esegue l’attività necessaria e preventivamente concordata con il Cliente, per il rapido recupero del credito, proponendo un compenso a risultato parametrato sull’effettivo credito recuperato. </p>
-            <p id='crediti-bancari'>Lo Studio persegue altresì la valorizzazione dei crediti affidati, attuando una precisa strategia che mira a trasformare il singolo credito di difficile recuperabilità in un credito munito di titolo esecutivo ed assistito da garanzia reale, aumentando concretamente le prospettive di recupero.</p>
+            <p>I nostri professionisti hanno acquisito nel corso degli anni un elevato grado di competenza e specializzazione collaborando con i più importanti studi legali italiani e con le più accreditate società di recupero crediti all’interno dei dipartimenti di contenzioso giudiziale e credit collection. </p>
+            <p>Lo studio è in grado di fornire autonoma assistenza nella gestione e nel recupero in fase stragiudiziale, giudiziale ed esecutiva, nonché nelle procedure concorsuali (fallimenti; concordati).</p>
+            <p>Sempre dopo un attento confronto con il cliente, vengono concordate le principali attività per raggiungere l’obiettivo in maniera efficace e rapida, con la maturazione di un compenso conforme alle tariffe forensi e rapportato alle effettive somme recuperate. </p>
+            <p id='crediti-bancari'>Lo studio persegue inoltre la valorizzazione dei crediti affidati, ponendo in essere tutte quelle attività finalizzate ad ottenere un titolo esecutivo e per quanto possibile una garanzia reale. In questo modo, il cliente avrà maggiori possibilità di perseguire il recupero del proprio credito sia in ottica di definizione stragiudiziale sia attivandosi in via coattiva-esecutiva.</p>
             <img
               style={{
                 display: 'block',
@@ -68,12 +68,9 @@ export default () => {
             />
             <h3>GESTIONE E RECUPERO CREDITI BANCARI NPL - UTP
             </h3>
-            <p>ManciniCeroni fornisce assistenza in favore di banche e intermediari finanziari, per la gestione ed il recupero di crediti bancari deteriorati <em>Non Performing Loans (NPL) ed Unlikely to Pay (UTP).</em></p>
-            <p>I Professionisti dello Studio hanno acquisito nel corso degli anni un elevato grado di competenza e specializzazione collaborando con i principali Servicer del settore dei crediti anomali, in qualità di Loan Manager nonché di legali esterni. </p>
-            <p>Lo Studio è quindi in grado di fornire autonoma assistenza nella gestione accurata e profittevole di singole posizioni e/o portafogli di pratiche
-              <em>NPL/UTP secured e unsecured di small, mid e large ticket</em>,
-              per l’intera filiera della gestione del credito:
-
+            <p>Lavoriamo a fianco delle banche e degli intermediari finanziari per la gestione ed il recupero di crediti bancari deteriorati <em>Non Performing Loans (NPL) ed Unlikely to Pay (UTP)</em>.</p>
+            <p>L’esperienza acquisita negli anni ci ha permesso di raggiungere un elevato livello di competenza nella collaborazione con i principali servicer del settore dei crediti anomali, in qualità di Loan manager, nonché di legali esterni.</p>
+            <p>Forniamo autonoma assistenza nella gestione accurata e profittevole di singole posizioni e/o portafogli di pratiche NPL/UTP secured e unsecured di small, mid e large ticket, per l’intera filiera della gestione del credito:
             </p>
             <ul>
               <li>Analisi delle pratiche affidate e pianificazione della migliore strategia di recupero;
@@ -86,17 +83,18 @@ export default () => {
 
               </li>
               <li>Attività giudiziale di tutela del credito nelle cause passive;</li>
-              <li>Costante aggiornamento, anche attraverso la conoscenza professionale dei principali portali gestionali utilizzati da banche e intermediari finanziari: EPC; REC; SYGES; LAWEB; EASYLEX; WELLDONE.
+              <li>Costante aggiornamento, anche attraverso la conoscenza professionale dei principali portali gestionali utilizzati da banche e intermediari finanziari: EPC, REC, SYGES, LAWEB, EASYLEX, WELLDONE.
               </li>
             </ul>
             <p style={{
               marginBottom: '40px'
             }}
-            >Lo Studio fornisce altresì la propria collaborazione ed assistenza per attività di <em>Due Diligence</em>, valutazione/analisi dei portafogli, <em>Data Remediation e Business Plan</em>, garantendo qualità e rispetto della tempistica di definizione della lavorazione richiesta dal Cliente.
+            >Affianchiamo inoltre i nostri clienti nell’attività di <em>Due Diligence,</em> valutazione/analisi dei portafogli, <em>Data Remediation e Business Plan,</em> garantendo qualità e rispetto delle tempistiche richieste dal progetto.
+            
             </p>
           </div>
         </div>
-        <Newsletter />
+        <ContactCta />
       </Layout>
       <style jsx='true'>{`
       .img-container {
