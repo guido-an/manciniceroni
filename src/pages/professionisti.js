@@ -12,6 +12,7 @@ const myDivider = {
   bottom: '20px'
 }
 
+
 export default () => {
   const data = useStaticQuery(graphql`
     query {
