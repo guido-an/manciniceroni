@@ -32,6 +32,9 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": "v16.17.0"
+  },
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
