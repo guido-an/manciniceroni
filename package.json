@@ -33,8 +33,7 @@
     "gatsby"
   ],
   "engines": {
-    "node": ">=0.10.3 <15",
-    "npm": ">=1.0.20"
+    "node": "v12.20.0"
   },
   "license": "0BSD",
   "scripts": {
