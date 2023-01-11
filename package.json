@@ -55,6 +55,6 @@
   "bit": {
     "env": {},
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "yarn@3.2.4"
+    "packageManager": "npm"
   }
 }
